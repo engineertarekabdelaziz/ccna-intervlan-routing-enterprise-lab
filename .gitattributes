@@ -1,0 +1,24 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Binary files (images, diagrams)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Configurations and scripts (treat as text)
+*.cfg text
+*.conf text
+*.txt text
+*.md text
+*.py text
+*.sh text
+
+# Ensure JSON, CSV, YAML are normalized
+*.json text
+*.csv text
+*.yml text
+*.yaml text
